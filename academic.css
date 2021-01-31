@@ -114,7 +114,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 1em;
 }
 
-/* customization begins; source code from ursine-polar.css */
+/* customization for headline indicator; source code from ursine-polar.css */
 #write h1::before, #write h2::before, #write h3::before, #write h4::before, #write h5::before, #write h6::before {
   position: absolute;
   left: auto;
@@ -164,6 +164,13 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   border: 0;
   line-height: inherit;
+}
+/* customization ends */
+
+/* customization for task list; source code from panda theme */
+.task-list-done {
+  text-decoration: line-through;
+  color: hsl(220, 6%, 45%);
 }
 /* customization ends */
 
