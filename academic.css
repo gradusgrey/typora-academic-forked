@@ -263,7 +263,7 @@ a.md-toc-inner {
 }
 
 sup.md-footnote {
-    background-color: initial;
+    background-color: #c4ebdf; /* customized */
     color: inherit;
 }
 
