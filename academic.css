@@ -169,8 +169,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* customization for task list; source code from panda theme */
 .task-list-done {
-  text-decoration: line-through;
-  color: hsl(220, 6%, 45%);
+    text-decoration: line-through;
+    color: hsl(220, 6%, 45%);
 }
 /* customization ends */
 
@@ -183,15 +183,17 @@ h1  {
 }
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.8em;
+    text-decoration: underline;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 
 h4 {
-    font-size: 1.1em;
+    font-size: 1.4em;
+    font-style: italic;
 }
 
 h5  {
@@ -214,7 +216,7 @@ pre, code {
 }
 
 .footnotes {
-    /* display: list-item; */ /* customized */
+    /* display: list-item; */
     margin-left: 1em;
 }
 
