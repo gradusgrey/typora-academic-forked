@@ -165,6 +165,20 @@ h1, h2, h3, h4, h5, h6 {
   border: 0;
   line-height: inherit;
 }
+
+
+.md-toc-h3 {
+  display: none;
+}
+.md-toc-h4 {
+  display: none;
+}
+.md-toc-h5 {
+  display: none;
+}
+.md-toc-h6 {
+  display: none;
+}
 /* customization ends */
 
 /* customization for task list; source code from panda theme */
